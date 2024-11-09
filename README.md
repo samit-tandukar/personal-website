@@ -34,4 +34,4 @@ For any inquiries, feel free to reach out!
 
 - **Email**: [contact@samittandukar.com](mailto:contact@samittandukar.com)
 - **LinkedIn**: [Samit Tandukar](https://www.linkedin.com/in/samittandukar)
-- **GitHub**: [Samit Tandukar](https://github.com/samittandukar)
+- **GitHub**: [Samit Tandukar](https://github.com/samit-tandukar)
