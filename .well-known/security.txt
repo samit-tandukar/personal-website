@@ -1,0 +1,7 @@
+Contact: mailto:contact@samittandukar.com
+Assignments: https://www.linkedin.com/in/samittandukar/
+Languages: en
+Canonical: https://samittandukar.com/.well-known/security.txt
+
+# If you find a security bug, please reach out via email. 
+# Responsible disclosure is appreciated.
