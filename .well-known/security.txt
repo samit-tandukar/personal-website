@@ -1,7 +1,9 @@
+# RFC 9116 - Security Disclosure Policy for Samit Tandukar
 Contact: mailto:contact@samittandukar.com
-Assignments: https://www.linkedin.com/in/samittandukar/
-Languages: en
+Expires: 2027-03-28T00:00:00.000Z
+Preferred-Languages: en
 Canonical: https://samittandukar.com/.well-known/security.txt
+Policy: https://github.com/samit-tandukar/personal-website/security/policy
 
-# If you find a security bug, please reach out via email. 
-# Responsible disclosure is appreciated.
+# If you found a vulnerability, thank you for looking out for me!
+# Please report it to the email above.
