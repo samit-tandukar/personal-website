@@ -37,7 +37,8 @@ This is a static site optimized for edge-network deployment. It is production-re
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Copyright & License > © 2026 Samit Tandukar. All Rights Reserved.**
+The code, design, and content of this repository are proprietary and may not be reproduced, cloned, or distributed without explicit permission.
 
 ## Contact
 
