@@ -172,3 +172,11 @@ h1,h2,h3,blockquote,.hero-role,.wordmark {color:var(--ink)}
 .about-body p:not(.lead) {color:var(--muted)}
 
 .hero-tagline {display:block;font-size:.72em;line-height:1.12;letter-spacing:-1.8px;margin-top:18px;color:var(--muted)}
+
+
+.email-reveal,.email-link {font:inherit;font-size:22px;letter-spacing:-.5px;color:var(--accent);overflow-wrap:anywhere}
+.email-reveal {border:0;background:transparent;padding:8px 0;cursor:pointer;text-align:left}
+.email-reveal[hidden] {display:none}
+.email-contact {min-width:0}
+.email-reveal:focus-visible,.email-link:focus-visible {outline:3px solid var(--accent);outline-offset:5px}
+@media(max-width:700px) {.email-contact{margin-top:26px}.email-reveal,.email-link{font-size:18px}}
