@@ -1,3 +1,4 @@
-# Allow all web crawlers to index the site
 User-agent: *
-Disallow: 
+Allow: /
+
+Sitemap: https://samittandukar.com/sitemap.xml
