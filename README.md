@@ -1,49 +1,28 @@
-# Samit Tandukar | Security Systems Engineer Portfolio
+# Samit Tandukar — personal website
 
-Welcome to the repository for my personal digital portfolio, live at [samittandukar.com](https://samittandukar.com). 
+A responsive, dependency-free professional portfolio for [samittandukar.com](https://samittandukar.com).
 
-This site serves as a technical showcase of my background in Endpoint Security, Identity Governance, and Cloud Infrastructure. It is engineered with a strict "performance and security first" philosophy, utilizing a zero-dependency architecture to minimize the attack surface and maximize loading speeds.
+## Structure
 
-## Table of Contents
-- [Overview](#overview)
-- [Architecture & Key Features](#architecture--key-features)
-- [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
-- [License](#license)
-- [Contact](#contact)
+- `index.html`: accessible page content and Person/ProfilePage structured data.
+- `assets/css/style.css`: responsive styling and reduced-motion support.
+- `assets/images/profile.jpg`: original portrait, used visibly and as the preferred search/social image.
+- `robots.txt` and `sitemap.xml`: crawler discovery and canonical URLs.
 
-## Overview
+## Development and deployment
 
-As a Security-focused Systems Engineer, I built this portfolio to reflect enterprise standards. Rather than relying on heavy third-party templates or libraries (like Bootstrap or jQuery), this single-page application is written from the ground up. This approach ensures pristine Core Web Vitals, native browser optimizations, and a clean, maintainable codebase.
+Serve the repository root with any static server. No installation or build step is required. Retain the existing hosting integration and deploy the root directory. The canonical domain is `https://samittandukar.com/`; do not publish this version on a different production domain without updating its URLs.
 
-## Architecture & Key Features
+## Content verification
 
-- **Zero-Dependency Codebase:** Built entirely without external CSS or JS frameworks to reduce bloat and mitigate supply-chain vulnerabilities.
-- **Dynamic Theming Engine:** Custom CSS variable implementation for Light/Dark mode, including automatic OS-level system preference detection.
-- **Custom Render Engine:** Features a mathematical `requestAnimationFrame` smooth-scrolling script, engineered specifically to bypass Safari/macOS native API quirks for a buttery-smooth user experience.
-- **CSS-Only Hardware Acceleration:** Utilizes 3D transforms (`translate3d`) and GPU-accelerated keyframes for an infinite-scrolling testimonial marquee, ensuring 120fps on ProMotion Apple devices.
-- **Technical SEO & Accessibility:** Fully integrated with semantic HTML, ARIA tags, Open Graph meta data, and structured JSON-LD (Schema.org) for optimal search engine indexing.
-- **Security Standard:** Includes a standard `/.well-known/security.txt` for responsible vulnerability disclosure.
+The public LinkedIn page exposes only partial information. Confirm the About text, project descriptions and career summary against the latest LinkedIn export before merging. Exact previous employment dates and unverified performance metrics are intentionally omitted. Time-limited credentials are linked to LinkedIn for current status rather than presented as active certifications.
 
-## Technologies Used
+## Search image follow-up
 
-- **HTML5**: Semantic structuring and embedded JSON-LD Schema.
-- **CSS3**: Advanced CSS Grid/Flexbox layouts, glassmorphism UI elements, and native hardware-accelerated animations.
-- **Vanilla JavaScript (ES6)**: Lightweight DOM manipulation, theme toggling, and precision scroll math.
+The portrait is an HTML image with an accessible description. Open Graph, Twitter metadata, ProfilePage.primaryImageOfPage and Person.image identify it as the preferred image. Test the live canonical page and image after deployment, submit `sitemap.xml` in Google Search Console and request indexing for the homepage. Google selects thumbnails automatically; metadata cannot guarantee a particular image or an update date.
 
-## Deployment
+## Verification limits
 
-This is a static site optimized for edge-network deployment. It is production-ready for platforms like **Cloudflare Pages**, **Vercel**, or **AWS Amplify**. Simply connect the repository and deploy the root directory.
+Check the design in desktop and mobile browsers before merging. Automated structural checks do not measure visual layout, Core Web Vitals or Google's eventual search presentation.
 
-## License
-
-**Copyright & License > © 2026 Samit Tandukar. All Rights Reserved.**
-The code, design, and content of this repository are proprietary and may not be reproduced, cloned, or distributed without explicit permission.
-
-## Contact
-
-Feel free to reach out for professional inquiries or networking!
-
-- **Email**: [contact@samittandukar.com](mailto:contact@samittandukar.com)
-- **LinkedIn**: [Samit Tandukar](https://www.linkedin.com/in/samittandukar)
-- **GitHub**: [samit-tandukar](https://github.com/samit-tandukar)
+© 2026 Samit Tandukar. All rights reserved.
